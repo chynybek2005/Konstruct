@@ -1,0 +1,173 @@
+@media (max-width:1200px) {
+    .container {
+        max-width: 800px;
+    }
+
+    .hero__title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .hero__desc {
+        font-size: 16px;
+    }
+
+    .card__sm-desc {
+        font-size: 22px;
+    }
+
+    .btn__title {
+        font-size: 16px;
+    }
+
+    .btn__title::before {
+        bottom: 15px;
+    }
+
+    .btn__desc {
+        line-height: 16px;
+        max-width: 370px;
+    }
+
+    .services__grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .services__card {
+        height: 370px;
+    }
+
+    .footer__grid {
+        column-gap: 50px;
+    }
+}
+
+@media (max-width:1025px) {
+    .container {
+        max-width: 600px;
+    }
+
+    .header .container {
+        max-width: 850px;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .hero__title {
+        font-size: 40px;
+    }
+
+    .hero__desc {
+        font-size: 14px;
+    }
+
+    .about__card {
+        height: 300px;
+    }
+
+    .about__title {
+        font-size: 20px;
+    }
+
+    .card__title {
+        font-size: 16px;
+    }
+
+    .card__desc {
+        margin-top: 20px;
+    }
+
+    .about__card-right {
+        grid-gap: 10px 10px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: "card__one card__one"
+                             "card__two card__three";
+    }
+
+    .card__right-part {
+        height: 135px;
+        box-shadow: 13px 13px 28px 3px rgba(0,0,0,0.67);
+        -webkit-box-shadow: 13px 13px 28px 3px rgba(0,0,0,0.67);
+        -moz-box-shadow: 13px 13px 28px 3px rgba(0,0,0,0.67);
+    }
+
+    .card__one {
+        grid-area: card__one;
+    }
+    .card__two {
+        grid-area: card__two;
+    }
+    .card__three {
+        grid-area: card__three;
+    }
+
+    .btn__title {
+        line-height: 18px;
+        font-size: 12px;
+    }
+    
+    .btn__title::before {
+        bottom: 0px;
+    }
+
+    .btn__desc {
+        line-height: 14px;
+        max-width: 300px;
+    }
+
+    .btn__btn {
+        height: 40px;
+        width: 150px;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .services__grid {
+        row-gap: 20px;
+        grid-template-columns: none;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .services__card {
+        height: 225px;
+    }
+
+    .services__card svg {
+        margin-bottom: 5px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .services__title {
+        font-size: 14px;
+        margin: 10px 0 5px;
+    }
+
+    .end__title {
+        font-size: 27px;
+    }
+
+    .end__btn {
+        width: 150px;
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .sunrise__title {
+        font-size: 20px;
+    }
+
+    .footer .container {
+        max-width: 850px;
+    }
+
+    .footer__grid {
+        column-gap: 50px;
+    }
+}
