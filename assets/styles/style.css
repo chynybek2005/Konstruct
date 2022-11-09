@@ -130,7 +130,7 @@ button {
 .header__burger {
     position: relative;
     display: none;
-    height: 1px;
+    height: 2px;
     width: 25px;
     background: var(--dark-grey-color);
 }
