@@ -213,7 +213,7 @@
     }
 
     .footer {
-        height: 700px;
+        height: 780px;
     }
 
     .footer__grid {
@@ -243,3 +243,123 @@
         height: 50px;
     }
 }
+
+@media (max-width:640px) {
+    .container {
+        max-width: 440px;
+    }
+
+    .hero {
+        height: 80vh;
+    }
+
+    .header .container {
+        max-width: 540px;
+    }
+
+    .about__grid  {
+        grid-template-columns: 1fr;
+    }
+
+    .about__card-right {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "card__one card__one card__one card__one"
+                             "card__two card__two card__three card__three"
+                             "card__two card__two card__three card__three";
+    }
+
+    .card__right-part {
+        height: 160px;
+    }
+
+    .btn {
+        margin-top: 150px;
+    }
+
+    .btn__btn {
+        display: none;
+    }
+
+    .btn__desc {
+        max-width: 400px;
+    }
+
+    .btn__title::before {
+        bottom: 0px;
+    }
+
+    .btn__sm-btn {
+        margin: 30px auto;
+        height: 50px;
+        width: 170px;
+        line-height: 12px;
+        display: block;
+    }
+
+    .sunrise {
+        height: 150px;
+    }
+
+    .sunrise__container {
+        display: inline-block;
+    }
+
+    .sunrise__title {
+        line-height: 24px;
+    }
+
+    .sunrise__input {
+        width: 200px;
+        height: 30px;
+        border-radius: 10px;
+    }
+
+    .sunrise__btn {
+        border-radius: 10px;
+        height: 30px;
+        margin-left: 20px;
+    }
+ }
+
+ @media (max-width:520px) {
+    .container {
+        max-width: 380px;
+    }
+
+    .services__card {
+        height: 275px;
+    }
+ }
+
+ @media (max-width:415px) {
+    .container {
+        max-width: 350px;
+    }
+
+    .hero__title {
+            font-size: 25px;
+        }
+    
+        .hero__desc {
+            font-size: 10px;
+        }
+
+        .hero__link {
+            font-size: 12px;
+        }
+        .sunrise {
+            height: 170px;
+        }
+
+        .sunrise__input {
+            width: 180px;
+        }
+
+        .sunrise__btn {
+            width: 150px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+ 
